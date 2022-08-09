@@ -1,0 +1,33 @@
+:root {
+    --main-text: rgb(63, 63, 63);
+    --main-background: rgb(184, 184, 184);
+}
+.navbar{
+    position: fixed;
+    height:6vh;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(184, 184, 184);
+    
+}
+.navbar-nav{
+    align-items: center;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.nav-item{
+    font-size: 18px;
+    font-family:"Allerta Stencil";
+    right:0px;
+}
+.navbar-collapse{
+    background-color: var(--main-background);
+    
+}
+.home-btn{
+    padding-left: 20px;
+    font-family: "Allerta Stencil";
+    font-size: 18px;
+    color: var(--main-text);
+}

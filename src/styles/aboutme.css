@@ -1,0 +1,47 @@
+.profile-pic{
+    position: absolute;
+    width: 18vh;
+    height:auto;
+    top: 30vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.aboutme-section{
+    position:relative;
+    width: 100%;
+    background: white;
+    height: 100vh;
+} 
+
+
+.subject-text{   
+    font-family:"Allerta Stencil";
+    font-size: 30px;
+    color: var(--main-text);
+    text-align: center;
+}
+
+
+.lead{
+    font-size: 20px;
+    font-family:"Allerta Stencil";
+    width: 90vh;
+    
+    height:auto;
+    color: var(--main-text);
+    text-align: center;
+}
+.jumbotron{
+    position: absolute;
+    /* padding: 500px 0px 0px; */
+    top: 50vh;
+}
+
+.to-go{
+    bottom: 10vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    z-index: 10;
+}

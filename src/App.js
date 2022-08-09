@@ -1,20 +1,16 @@
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Homepage from './components/Home';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import ViewCV from './components/ViewCV';
-
-
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      <Homepage />
       <Aboutme />
       <Projects />
       <Contact />
-      <ViewCV />
     </div>
   );
 }

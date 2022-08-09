@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Nav.css';
+import pdf from '../images/CV.pdf'
 
 function Navbar(){
     return (
@@ -20,7 +21,7 @@ function Navbar(){
                 <a className="nav-item nav-link" href="#contact">CONTACT</a>
             </li>
             <li className="nav-item">
-                <a className="nav-item nav-link" href="./assets/images/CV.pdf" target="_blank">VIEW MY CV</a>
+                <a className="nav-item nav-link" href={pdf} target="_blank" rel="noreferrer">VIEW MY CV</a>
             </li>
           </ul>
         </div>

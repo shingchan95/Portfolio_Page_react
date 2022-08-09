@@ -1,0 +1,48 @@
+
+[
+    {
+        "title":"Project Bank-Heist",
+        "description":"This application provides a rudimentary online banking template. It is a full stack application that primarily utilises Node.js and it employs the MVC pattern.",
+        "deployment-link": "https://peaceful-lassen-volcanic-80125.herokuapp.com/",
+        "github-link":"https://github.com/ChrisAylen/project-bank-heist",
+        "image":"../images/project-bank-heist.JPG",
+        "languages":["html","css","javascript", "sql"],
+        "framework":["express.js","sequelize", "handlebar.js" ],
+        "others":["node.js", "mysql"]
+
+    },
+    {
+        "title":"The Tech Blog",
+        "description":"This application provides a rudimentary Tech Blog template. It is a full stack application that primarily utilises Node.js and it employs the MVC pattern.",
+        "image":"../images/week14.JPG",
+        "deployment-link":"https://week14-coursework.herokuapp.com/",
+        "github-link":"https://github.com/shingchan95/week14-coursework",
+        "languages":["html","css","javascript", "sql"],
+        "framework":["express.js","sequelize", "handlebar.js" ],
+        "others":["node.js","mysql"]
+
+    },
+    {
+        "title": "Weather Forecast With Map Click",
+        "description":"This application provides a Weather Forecast websiite using Google Map API and OpenWeather API. It allows user to click anywhere in the map and allocate the weather forecast detail using the Fetch API .",
+        "image":"../images/project 1.PNG",
+        "deployment-link":"https://shingchan95.github.io/know-your-city/",
+        "github-link":"https://github.com/shingchan95/know-your-city",
+        "languages":["html","css","javascript"],
+        "framework":[],
+        "others":["third part apis"]
+            
+        
+
+    },
+    {
+        "title":"Work Day Scheduler",
+        "description":"This application provides a Work Day Scheduler template. It is a fron-end application that primarily utilises Javascript & Localstorage , allows user to save data to their local storage across browser sessions.",
+        "image":"../images/week5.PNG",
+        "deployment-link":"https://shingchan95.github.io/week5-coursework/",
+        "github-link":"https://github.com/shingchan95/week5-coursework" ,
+        "languages":["html","css","javascript"],
+        "framework":[],
+        "others":["local storage"]
+    }
+]
