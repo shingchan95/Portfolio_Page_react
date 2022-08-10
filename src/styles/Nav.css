@@ -4,16 +4,20 @@
 }
 
 .nav-menu{
-    position: fixed;
     height:6vh;
     width: 100%;
     z-index: 100;
     background-color: rgb(184, 184, 184);
-    
+}
+#home-btn{
+    padding-left: 20px;
+    font-size: 18px;
+    font-family:"Allerta Stencil";
+    color: var(--main-text);
 }
 .navbar-nav{
     align-items: center;
-    text-align: end;
+    text-align: start;
     padding-right: 15px;
 }
 
@@ -25,10 +29,4 @@
 .navbar-collapse{
     background-color: var(--main-background);
     
-}
-#navbarSupportedContent a{
-    padding-left: 20px;
-    font-family: "Allerta Stencil";
-    font-size: 18px;
-    color: var(--main-text);
 }
