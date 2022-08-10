@@ -13,7 +13,7 @@ function Contact(){
                     <form action="https://formsubmit.co/60b09ae6882f12448593ffa2c1c6bebe " method="POST">
                         <input type="hidden" name="_subject" value="New submission from my PORTFOLIO!" />
                         <input type="hidden" name="_autoresponse" value="thank you for your message. i will respond as soon as possible" />
-                        <input type="hidden" name="_next" value="https://shingchan95.github.io/my_profile/" />
+                        <input type="hidden" name="_next" value="https://shingchan95.github.io/portfolio_page_react/" />
                         <div className="form-group">
                             <label>Email address</label>
                             <input type="email" name="email" className="form-control" placeholder="Email Address" required />
