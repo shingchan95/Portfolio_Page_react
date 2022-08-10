@@ -18,16 +18,11 @@
     font-size: 12px;
     z-index: 2;
 
-
-
-
 }
 .filter-container table{
-    text-align: center;  
-    display: flex;
-    padding-left: 33%;
-    padding-bottom: 50px;
-
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 

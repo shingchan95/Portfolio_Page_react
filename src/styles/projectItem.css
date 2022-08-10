@@ -1,9 +1,41 @@
-.display-right{
-    text-align: end;
-}
 .imagecard{
     float: left;
     padding-top: 20px ;
     padding-left: 50px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+}
+.card-background{
+    background-color: rgb(223, 220, 215);
+}
+
+.display-box h5{
+    text-align: center;
+    font-size: 35px
+}
+
+.display-box p{
+    padding-left: 550px;
+}
+
+.button-group{
+    float: right;
+    padding-top: 60px;
+    
+}
+
+.githhub-logo{
+    margin-right: 40px;
+    border-radius:10px; 
+    background-color: var(--main-background);
+    color:var(--main-text);
+}
+
+.deployment-btn{
+    background-color: var(--main-background);
+    width: 5px;
+    font-size: 15px;
+    border-radius:10px; 
+    font-family:"Allerta Stencil" ;
+    color:var(--main-text);
+    
 }

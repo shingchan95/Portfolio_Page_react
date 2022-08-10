@@ -18,13 +18,20 @@ function Projects(){
             updatedList.splice(checked.indexOf(e.target.value), 1);
         }
         setchecked(updatedList)
-        const res = pjdata.filter(item => item.languages.includes(checked));
-        
-        // const res= pjdata.filter((item) => {
-        //     return checked.includes(item.languages);
-        // });
-        console.log(res)
-        setPortfolio(res)
+
+        let filteredList=[]
+        updatedList.forEach(listItem=>{
+            const res = pjdata.filter(item => item.skills.includes(listItem));
+
+            if(res.length>0 ){
+                // filteredList.push(...res)
+                filteredList= [...res]
+            }
+
+        })
+    
+        setPortfolio(filteredList)
+
     } 
     
     
@@ -44,7 +51,9 @@ function Projects(){
                     </tbody>
                 </table>
             </div>
-            < ProjectItem portfolio={portfolio}/> 
+            {portfolio && portfolio.map((project)=>(
+                < ProjectItem key={project.id} project={project}/> 
+            ))}
     </div>
     )
       

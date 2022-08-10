@@ -1,22 +1,25 @@
 import React from 'react';
 import '../styles/projectItem.css'
-import test1 from '../images/week3.PNG'
+import githubLogo from "../images/github-logo.png"
 
 
 
 
-function ProjectItem({portfolio}) {
-    // console.log(portfolio)
+function ProjectItem({project}) {
     return (
         <div className="project_item" style={{marginBottom: "50px"}}>
             <div className="card">
-            <div className="card-body">
-                <div className='imagecard'><img id="test" style={{maxWidth: "300px"}} src={test1} alt="test" /></div>
+            <div className="card-body card-background">
+                <div className='imagecard'><img id="test" style={{maxWidth: "400px"}} src={project.image} alt="test" /></div>
                 
-                <div className='display-right'>
-                    <h5 className="card-title">Special title treatment</h5>
-                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="http://google.com" className="btn btn-primary">Go somewhere</a>
+                <div className='display-box'>
+                    <h5 className="card-title">{project.title}</h5>
+                    <p className="card-text">{project.description}</p>
+                    
+                    <div className='button-group'>
+                        <a href={project.github} className="githhub-logo" target="_blank" rel="noreferrer"><img src={githubLogo} style={{maxHeight: "40px"}} alt='github' /></a>
+                        <a href={project.deployment} className="deployment-btn " target="_blank" rel="noreferrer">Visit deployment</a>
+                    </div>
                 </div>
             </div>
             </div>
