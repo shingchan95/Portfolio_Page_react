@@ -32,4 +32,4 @@ Licensed under the MIT License
 
 ## Questions
 
-further question please visit https://github.com/shingchan95
+further question please visit https://github.com/shingchan95 or fill in the contact form in https://shingchan95.github.io/portfolio_page_react/#contact
