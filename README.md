@@ -3,7 +3,7 @@
 ![license](https://img.shields.io/badge/license-MLT%20license-green)
 
 ## Description
-This application provides a portfolio created using react.js. It is a front-end framework that utilizes individual parts of their application on both the client-side and the server-side, which ultimately boosts the speed of the development process.
+This application provides a portfolio created using react.js. It is a component based front-end framework which ultimately boosts the speed of the development process.
 
 ## Table of Contents
 - [Usage](#usage)
