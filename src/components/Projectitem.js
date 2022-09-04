@@ -15,8 +15,8 @@ function ProjectItem({projects}) {
                     <>
                     <div key={project.id} className="cursor-pointer relative transition duration-300 hover:scale-125 border-4 rounded-lg m-5 w-64 h-96 font-mono left-fly z-1" onClick={() => {setIsOpen(true); setClickData(project);}} >
                         <div className='flex items-center justify-center pb-10'>
-                            <div className='w-full h-40'> 
-                                <img src={projects.image} alt="project" className="bg-white"/>
+                            <div className='w-full h-40 bg-white'> 
+                                <img src={projects.image} alt="project"/>
                             </div>
                         </div>   
                         <div className='pt-5'>
