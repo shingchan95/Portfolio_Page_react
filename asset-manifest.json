@@ -1,29 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_page_react/static/css/main.713c2925.chunk.css",
-    "main.js": "/portfolio_page_react/static/js/main.8717f745.chunk.js",
-    "main.js.map": "/portfolio_page_react/static/js/main.8717f745.chunk.js.map",
-    "runtime-main.js": "/portfolio_page_react/static/js/runtime-main.61c15bc7.js",
-    "runtime-main.js.map": "/portfolio_page_react/static/js/runtime-main.61c15bc7.js.map",
-    "static/css/2.984f751f.chunk.css": "/portfolio_page_react/static/css/2.984f751f.chunk.css",
-    "static/js/2.5561f8fc.chunk.js": "/portfolio_page_react/static/js/2.5561f8fc.chunk.js",
-    "static/js/2.5561f8fc.chunk.js.map": "/portfolio_page_react/static/js/2.5561f8fc.chunk.js.map",
-    "index.html": "/portfolio_page_react/index.html",
-    "static/css/2.984f751f.chunk.css.map": "/portfolio_page_react/static/css/2.984f751f.chunk.css.map",
-    "static/css/main.713c2925.chunk.css.map": "/portfolio_page_react/static/css/main.713c2925.chunk.css.map",
-    "static/js/2.5561f8fc.chunk.js.LICENSE.txt": "/portfolio_page_react/static/js/2.5561f8fc.chunk.js.LICENSE.txt",
-    "static/media/CV.6c516356.pdf": "/portfolio_page_react/static/media/CV.6c516356.pdf",
-    "static/media/HongKong-background.4ba13080.jpg": "/portfolio_page_react/static/media/HongKong-background.4ba13080.jpg",
-    "static/media/Linkedin-Logo-PNG2.92fb7c52.png": "/portfolio_page_react/static/media/Linkedin-Logo-PNG2.92fb7c52.png",
-    "static/media/Manchester-background.deb91dd5.jpg": "/portfolio_page_react/static/media/Manchester-background.deb91dd5.jpg",
-    "static/media/github-logo.1b6bd0e4.png": "/portfolio_page_react/static/media/github-logo.1b6bd0e4.png",
-    "static/media/my_pic.f5f25775.png": "/portfolio_page_react/static/media/my_pic.f5f25775.png"
+    "main.css": "/static/css/main.ca97b5a5.css",
+    "main.js": "/static/js/main.2d04b6bc.js",
+    "static/media/homepage_background.mp4": "/static/media/homepage_background.0bd4f3da7342c6c469a3.mp4",
+    "static/media/Manchester-background.jpg": "/static/media/Manchester-background.deb91dd5d534d7a73526.jpg",
+    "static/media/my_pic.png": "/static/media/my_pic.f5f25775aae3a1cd6e86.png",
+    "static/media/CV.pdf": "/static/media/CV.d2d59b6667b3d9666e1b.pdf",
+    "static/media/Linkedin-Logo-PNG2.png": "/static/media/Linkedin-Logo-PNG2.92fb7c52cbb1004e2a2d.png",
+    "static/media/github-logo.png": "/static/media/github-logo.1b6bd0e4b6626baba753.png",
+    "index.html": "/index.html",
+    "static/media/index.cjs": "/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.ca97b5a5.css.map": "/static/css/main.ca97b5a5.css.map",
+    "main.2d04b6bc.js.map": "/static/js/main.2d04b6bc.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.61c15bc7.js",
-    "static/css/2.984f751f.chunk.css",
-    "static/js/2.5561f8fc.chunk.js",
-    "static/css/main.713c2925.chunk.css",
-    "static/js/main.8717f745.chunk.js"
+    "static/css/main.ca97b5a5.css",
+    "static/js/main.2d04b6bc.js"
   ]
 }
