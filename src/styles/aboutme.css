@@ -1,47 +1,120 @@
-.profile-pic{
-    position: absolute;
-    width: 18vh;
-    height:auto;
-    top: 30vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
+/* .type-effect {
+  width: 100%;
+  height: 100%;
+} */
+
+.typing1,
+.typing2,
+.typing3,
+.typing4,
+.typing5 {
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide text behind the cursor */
+  margin: 0.5rem auto;
 }
 
-.aboutme-section{
-    position:relative;
-    width: 100%;
-    background: white;
-    height: 100vh;
-} 
+.typing1 {
+  /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+  /* define animation types for text + cursor */
+  animation: animated-text__1 3s steps(30, end) 1s 1 normal both,
+    animated-cursor__1 900ms steps(30, end) 8;
+}
+
+.typing2 {
+  /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+
+  /* define animation types for text + cursor */
+  animation: animated-text__2 3s steps(30, end) 1s 1 normal both,
+    animated-cursor__2 900ms steps(30, end) infinite;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.typing3 {
+    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+  
+    /* define animation types for text + cursor */
+    animation: animated-text__3 3s steps(30, end) 1s 1 normal both,
+      animated-cursor__3 900ms steps(30, end) infinite;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+  }
 
 
-.subject-text{   
-    font-family:"Allerta Stencil";
-    font-size: 30px;
-    color: var(--main-text);
-    text-align: center;
+  .typing4 {
+    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+  
+    /* define animation types for text + cursor */
+    animation: animated-text__3 3s steps(30, end) 1s 1 normal both,
+      animated-cursor__3 900ms steps(30, end) infinite;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+  }
+.typing5 {
+    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+  
+    /* define animation types for text + cursor */
+    animation: animated-text__3 3s steps(30, end) 1s 1 normal both,
+      animated-cursor__3 900ms steps(30, end) infinite;
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
+  }
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgb(0, 0, 0);
+  }
+  to {
+    border-right-color: rgb(255, 255, 255);
+  }
 }
 
 
-.lead{
-    font-size: 20px;
-    font-family:"Allerta Stencil";
-    width: 90vh;
-    
-    height:auto;
-    color: var(--main-text);
-    text-align: center;
+@keyframes animated-cursor__1 {
+    from {
+      border-right-color: rgb(0, 0, 0);
+    }
+    to {
+      border-right-color: rgb(255, 255, 255);
+    }
+  }
+  
+
+
+
+@keyframes animated-cursor__1 {
+from {
+    border-right-color: rgb(0, 0, 0);
 }
-.jumbotron{
-    position: absolute;
-    /* padding: 500px 0px 0px; */
-    top: 50vh;
+to {
+    border-right-color: rgb(255, 255, 255);
+}
+}
+  
+  
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35rem;
+  }
 }
 
-.to-go{
-    bottom: 10vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    position:absolute;
-    z-index: 10;
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35rem;
+  }
 }
+
+@keyframes animated-text__3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 37rem;
+    }
+  }

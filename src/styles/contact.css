@@ -85,6 +85,8 @@
     color: var(--main-text);
     background-color: var(--main-background);
     padding: 12px 20px;
+    border-radius:10px; 
+    font-family:"Allerta Stencil";
 
 }
 

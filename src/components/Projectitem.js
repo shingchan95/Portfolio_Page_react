@@ -1,29 +1,51 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../styles/projectItem.css'
-import githubLogo from "../images/github-logo.png"
+import ProjectModal from './ProjectModal'
+
+function ProjectItem({projects}) {  
+    const [isOpen, setIsOpen] = useState(false)
+    const [clickData, setClickData] = useState("")
 
 
-
-
-function ProjectItem({project}) {
     return (
-        <div className="project_item" style={{marginBottom: "50px"}}>
-            <div className="card">
-            <div className="card-body card-background">
-                <div className='imagecard'><img id="test" style={{maxWidth: "400px"}} src={project.image} alt="test" /></div>
-                
-                <div className='display-box'>
-                    <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text">{project.description}</p>
-                    
-                    <div className='button-group'>
-                        <a href={project.github} className="githhub-logo" target="_blank" rel="noreferrer"><img src={githubLogo} style={{maxHeight: "40px"}} alt='github' /></a>
-                        <a href={project.deployment} className="deployment-btn " target="_blank" rel="noreferrer">Visit deployment</a>
+    <>
+        <div className='text-white md:container md:mx-auto md:w-5 md:h-4/6 p-5 lg:w-10/12 text-center flex items-center justify-center flex-wrap'>
+            {projects.map((project) => {
+                return project.id %2===0 ?(
+                    <>
+                    <div key={project.id} className="cursor-pointer relative transition duration-300 hover:scale-125 border-4 rounded-lg m-5 w-64 h-96 font-mono left-fly z-1" onClick={() => {setIsOpen(true); setClickData(project);}} >
+                        <div className='flex items-center justify-center pb-10'>
+                            <div className='w-full h-40'> 
+                                <img src={projects.image} alt="project" className="bg-white"/>
+                            </div>
+                        </div>   
+                        <div className='pt-5'>
+                            <p className='text-2xl font-bold'> {project.title}</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            </div>
+                    <ProjectModal data={clickData} open={isOpen} onClose={() => setIsOpen(false)} />
+                    </>
+                    )
+                    :
+                    (
+                    <>
+                    <div key={project.id} className="cursor-pointer relative ransition duration-300 hover:scale-125 border-4 rounded-lg m-5 w-96 h-80 font-mono z-1"  onClick={() => {setIsOpen(true); setClickData(project);}} >
+                        <div className='flex items-center justify-center pb-10'>
+                            <div className='w-full h-40 bg-white'> 
+                                <img src={projects.image} alt="project"/>
+                            </div>
+                        </div>
+                        <div>
+                        <p className='text-2xl font-bold'> {project.title}</p>
+                        </div>
+                    </div>
+                    <ProjectModal data={clickData} open={isOpen} onClose={() => setIsOpen(false)} />
+                    </>
+                    )
+                })
+            }   
         </div>
+    </>
     
     )
 }

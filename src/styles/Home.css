@@ -1,56 +1,14 @@
-:root {
-    --main-text: rgb(63, 63, 63);
-    --main-background: rgb(184, 184, 184);
-}
-#hk_background{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 2;
-}
-
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 2px;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-.arrow-text{
-    font-family: "Allerta Stencil";
-    font-size: 14px;
-    color: var(--main-text);
-}
-.cover-page{
-    position: relative;
-    height: 100;
-    
-}
-.to-aboutme{
-    padding-top: 20vh;
-    text-align: center;
-}
-
-.container-welcome{
-    position:absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    align-items: center;
-}
-
-
 .welcome-text{
-    color: rgb(63, 63, 63);
-    font-family: "Allerta Stencil", "sans-serif";
-    font-size: 50px;
-    margin:10px
-
+    animation: fadeIn 5s;
+    opacity: 0;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
+  
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { 
+        opacity: 1;
+    }
+  }
