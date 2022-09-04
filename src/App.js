@@ -16,7 +16,7 @@ function App() {
             element={<Homepage />}
             />
 
-            <Route path= "/portfolio_page_react/aboutme"
+            <Route path= "/aboutme"
             element={<Aboutme />} 
             />
 
