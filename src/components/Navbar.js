@@ -8,7 +8,7 @@ function Navbar(){
         {name:"ABOUT ME", link:"/aboutme"},
         {name:"PROJECTS", link:"/projects"},
         {name:"CONTACT", link:"/"},
-        {name:"VIEW MY CV", link: pdf},
+        {name:"VIEW MY CV", link: "../iamges/CV.pdf"},
 
     ]
 
@@ -35,6 +35,7 @@ function Navbar(){
                 </li>
               ))
             }
+
           </ul>
           </div>
         </div>
