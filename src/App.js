@@ -12,19 +12,19 @@ function App() {
       <div className="flex-column justify-flex-start min-100-vh">
         <div>
           <Routes>
-            <Route path= "/" 
+            <Route path= "/portfolio_page_react" 
             element={<Homepage />}
             />
 
-            <Route path= "/aboutme"
+            <Route path= "/portfolio_page_react/aboutme"
             element={<Aboutme />} 
             />
 
-            <Route path= "/projects" 
+            <Route path= "/portfolio_page_react/projects" 
             element={<Projects />} 
             />
 
-            <Route path= "/contact"
+            <Route path= "/portfolio_page_react/contact"
             element={<Contact />} 
             />
           </Routes>
