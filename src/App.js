@@ -20,11 +20,11 @@ function App() {
             element={<Aboutme />} 
             />
 
-            <Route path= "/portfolio_page_react/projects" 
+            <Route path= "/projects" 
             element={<Projects />} 
             />
 
-            <Route path= "/portfolio_page_react/contact"
+            <Route path= "/contact"
             element={<Contact />} 
             />
           </Routes>
