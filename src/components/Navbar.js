@@ -3,13 +3,12 @@ import pdf from '../images/CV.pdf'
 import { Link } from "react-router-dom";
 
 
+
 function Navbar(){
     let Links =[
         {name:"ABOUT ME", link:"/aboutme"},
         {name:"PROJECTS", link:"/projects"},
         {name:"CONTACT", link:"/"},
-        {name:"VIEW MY CV", link: "../iamges/CV.pdf"},
-
     ]
 
     let [open,setOpen]=useState(false);
@@ -19,7 +18,7 @@ function Navbar(){
           <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
           <div className='text-2xl cursor-pointer flex items-center font-mono font-bold text-white'>
             <span className='text-2xl mr-1 pt-2'>
-                HOME
+            <Link to="/portfolio_page_react">HOME</Link>                
             </span>
           </div>
           
@@ -35,6 +34,9 @@ function Navbar(){
                 </li>
               ))
             }
+               <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <a href = {pdf} className='text-white hover:text-gray-400 bg-black duration-500' target="_blank" rel="noreferrer">VIEW MY CV </a>
+                </li>
 
           </ul>
           </div>

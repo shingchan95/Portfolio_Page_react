@@ -1,6 +1,7 @@
 import React from 'react';
 import homepageBg from '../images/homepage_background.mp4'
 import '../styles/Home.css'
+import { Link } from "react-router-dom";
 
 
 function Homepage(){
@@ -12,7 +13,7 @@ function Homepage(){
                     <h1 className="text-3xl font-bold pt-2">WELCOME TO MY PORTFOLIO</h1> 
                     <div className='pt-8'>
                         <button className='rounded-full py-2 px-3 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono'>
-                           Explore About Me
+                        <Link to="/aboutme">Explore About Me</Link> 
                         </button>
                     </div> 
                 </div>        
