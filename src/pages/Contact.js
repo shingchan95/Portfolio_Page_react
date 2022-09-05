@@ -26,11 +26,11 @@ function Contact(){
                             <textarea  type="text" name="message" className="form-control text-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " rows="9" placeholder="Write your message here." required></textarea>
                         </div>
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send</button>
+                    <div className="flex" >
+                            <a href="https://github.com/shingchan95" className="mx-auto" target="_blank" rel="noreferrer"><img className="w-30 h-10 m-3 rounded-full pl-8 pr-8 hover:bg-slate-400" src={github}  alt='github' /></a>
+                            <a href="https://www.linkedin.com/in/shing-hei-chan-b74747120/" className="mx-auto " target="_blank" rel="noreferrer"><img src={linkedin} className="w-25 h-6 mt-4 rounded-full pl-8 pr-8 hover:bg-slate-400"  alt='linkedin' /></a>
+                    </div>
                     </form>
-                </div>
-                <div className="flex bg-zinc-300 inset-x-0 bottom-0" >
-                        <a href="https://github.com/shingchan95" className="mx-auto" target="_blank" rel="noreferrer"><img className="w-30 h-10 bg-zinc-300 m-3" src={github}  alt='github' /></a>
-                        <a href="https://www.linkedin.com/in/shing-hei-chan-b74747120/" className="mx-auto " target="_blank" rel="noreferrer"><img src={linkedin} className="w-20 h-7 bg-zinc-300 mt-4"  alt='linkedin' /></a>
                 </div>
         </div>
     

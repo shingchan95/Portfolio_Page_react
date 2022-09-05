@@ -50,15 +50,7 @@
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
   }
-.typing5 {
-    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
-  
-    /* define animation types for text + cursor */
-    animation: animated-text__3 3s steps(30, end) 1s 1 normal both,
-      animated-cursor__3 900ms steps(30, end) infinite;
-    -webkit-animation-delay: 13s;
-    animation-delay: 13s;
-  }
+
 
 @keyframes animated-cursor__1 {
   from {
@@ -97,7 +89,7 @@ to {
     width: 0;
   }
   to {
-    width: 35rem;
+    width: 62rem;
   }
 }
 
@@ -106,7 +98,7 @@ to {
     width: 0;
   }
   to {
-    width: 35rem;
+    width: 75rem;
   }
 }
 
@@ -115,6 +107,6 @@ to {
       width: 0;
     }
     to {
-      width: 37rem;
+      width: 70rem;
     }
   }

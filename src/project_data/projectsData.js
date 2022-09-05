@@ -2,6 +2,8 @@ import bankHeist from "../images/project-bank-heist.JPG"
 import techBlog from "../images/week14.JPG"
 import project1 from "../images/project 1.PNG"
 import workdaySchedule from "../images/week5.PNG"
+import Helloworld from "../images/hello-world.JPG"
+import readMe from "../images/read-me.JPG"
 
 
 const projectData = [
@@ -45,7 +47,7 @@ const projectData = [
     {   "id":4,
         "title":"Hello World Social Networking",
         "description":"The application provides a social network enviroment. It is a full stack application that primarily utilises Node.js, GraphQL, MongoDB/Mongoose and React.",
-        "image":"",
+        "image":Helloworld,
         "deployment":"https://shielded-mesa-02928.herokuapp.com/",
         "github":"https://github.com/shingchan95/hello-world-social-networking" ,
         "skills":["html","css","javascript","react"],
@@ -67,8 +69,8 @@ const projectData = [
     {   "id":6,
         "title":"README-generator",
         "description":"The application can dynamically generates a professional README.md file from a user's input using the Inquirer package.",
-        "image":"",
-        "deployment":"",
+        "image":readMe,
+        "deployment":"https://github.com/shingchan95/README-generator",
         "github":"https://github.com/shingchan95/README-generator" ,
         "skills":["javascript", "nodejs", "inquirer"],
         "languages":[""],
