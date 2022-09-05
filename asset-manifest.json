@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio_page_react/static/css/main.96880772.css",
-    "main.js": "/portfolio_page_react/static/js/main.50b7b824.js",
+    "main.js": "/portfolio_page_react/static/js/main.bd24b5f3.js",
     "static/media/homepage_background.mp4": "/portfolio_page_react/static/media/homepage_background.0bd4f3da7342c6c469a3.mp4",
     "static/media/project 1.PNG": "/portfolio_page_react/static/media/project 1.1e21ff2081bd575e67fc.PNG",
     "static/media/my_pic.png": "/portfolio_page_react/static/media/my_pic.f5f25775aae3a1cd6e86.png",
+    "static/media/portfolio.JPG": "/portfolio_page_react/static/media/portfolio.927475e733b48153aa83.JPG",
     "static/media/read-me.JPG": "/portfolio_page_react/static/media/read-me.5b8589805aedc218763c.JPG",
     "static/media/project-bank-heist.JPG": "/portfolio_page_react/static/media/project-bank-heist.0316bde5346cf32227fd.JPG",
     "static/media/week14.JPG": "/portfolio_page_react/static/media/week14.bc913a44f767685318ed.JPG",
@@ -15,10 +16,10 @@
     "static/media/github-logo.png": "/portfolio_page_react/static/media/github-logo.1b6bd0e4b6626baba753.png",
     "index.html": "/portfolio_page_react/index.html",
     "main.96880772.css.map": "/portfolio_page_react/static/css/main.96880772.css.map",
-    "main.50b7b824.js.map": "/portfolio_page_react/static/js/main.50b7b824.js.map"
+    "main.bd24b5f3.js.map": "/portfolio_page_react/static/js/main.bd24b5f3.js.map"
   },
   "entrypoints": [
     "static/css/main.96880772.css",
-    "static/js/main.50b7b824.js"
+    "static/js/main.bd24b5f3.js"
   ]
 }
