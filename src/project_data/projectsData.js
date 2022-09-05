@@ -4,7 +4,7 @@ import project1 from "../images/project 1.PNG"
 import workdaySchedule from "../images/week5.PNG"
 import Helloworld from "../images/hello-world.JPG"
 import readMe from "../images/read-me.JPG"
-
+import portfolio from "../images/portfolio.JPG"
 
 const projectData = [
     {
@@ -80,7 +80,7 @@ const projectData = [
     {   "id":7,
         "title":"react-portfolio",
         "description":"This application provides a portfolio created using react.js and tailwind. It is a component based front-end framework which ultimately boosts the speed of the development process.",
-        "image": workdaySchedule,
+        "image": portfolio,
         "deployment":"https://shingchan95.github.io/portfolio_page_react/",
         "github":"https://github.com/shingchan95/portfolio_page_react" ,
         "skills":["html","css","javascript","react"],
