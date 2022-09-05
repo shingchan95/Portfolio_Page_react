@@ -8,7 +8,7 @@ function Navbar(){
     let Links =[
         {name:"ABOUT ME", link:"/aboutme"},
         {name:"PROJECTS", link:"/projects"},
-        {name:"CONTACT", link:"/"},
+        {name:"CONTACT", link:"/contact"},
     ]
 
     let [open,setOpen]=useState(false);

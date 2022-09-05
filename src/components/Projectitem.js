@@ -15,9 +15,9 @@ function ProjectItem({projects}) {
             {projects.map((project, i) => {
                 return project.id %2===0 ?(
                     <>
-                    <div key={project.id} className="cursor-pointer relative transition duration-300 hover:scale-125 border-4 rounded-lg m-5 w-64 h-96 font-mono left-fly z-1" onClick={() => {setIsOpen(true); setClickData(project);}} >
+                    <div key={project.id} className="cursor-pointer relative transition duration-300 hover:scale-150 hover:z-50 border-2 rounded-lg m-5 w-64 h-96 font-mono left-fly z-1 bg-black" onClick={() => {setIsOpen(true); setClickData(project);}} >
                         <div className='flex items-center justify-center pb-10'>
-                            <div className='w-full h-40 bg-white'> 
+                            <div className='pt-8 w-full h-40' key={i}> 
                                 <img src={`${project.image}`} alt={project.title} key={i}/>
                             </div>
                         </div>   
@@ -31,9 +31,9 @@ function ProjectItem({projects}) {
                     :
                     (
                     <>
-                    <div key={project.id} className="cursor-pointer relative ransition duration-300 hover:scale-125 border-4 rounded-lg m-5 w-96 h-80 font-mono z-1"  onClick={() => {setIsOpen(true); setClickData(project);}} >
+                    <div key={project.id} className="cursor-pointer relative ransition duration-300 hover:scale-150 hover:z-50 border-2 rounded-lg m-5 w-96 h-80 font-mono z-1 bg-black"  onClick={() => {setIsOpen(true); setClickData(project);}} >
                         <div className='flex items-center justify-center pb-10'>
-                            <div className='w-full h-40 bg-white'> 
+                            <div className='w-full h-40'> 
                                 <img src={`${project.image}`} alt={project.title} key={i}/>
                             </div>
                         </div>
