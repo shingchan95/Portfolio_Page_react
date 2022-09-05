@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_page_react/static/css/main.750af8ee.css",
-    "main.js": "/portfolio_page_react/static/js/main.6c139a14.js",
+    "main.css": "/portfolio_page_react/static/css/main.ddea3a4e.css",
+    "main.js": "/portfolio_page_react/static/js/main.3cf930cb.js",
     "static/media/homepage_background.mp4": "/portfolio_page_react/static/media/homepage_background.0bd4f3da7342c6c469a3.mp4",
-    "static/media/Manchester-background.jpg": "/portfolio_page_react/static/media/Manchester-background.deb91dd5d534d7a73526.jpg",
+    "static/media/project 1.PNG": "/portfolio_page_react/static/media/project 1.1e21ff2081bd575e67fc.PNG",
     "static/media/my_pic.png": "/portfolio_page_react/static/media/my_pic.f5f25775aae3a1cd6e86.png",
+    "static/media/project-bank-heist.JPG": "/portfolio_page_react/static/media/project-bank-heist.0316bde5346cf32227fd.JPG",
+    "static/media/week14.JPG": "/portfolio_page_react/static/media/week14.bc913a44f767685318ed.JPG",
     "static/media/CV.pdf": "/portfolio_page_react/static/media/CV.d2d59b6667b3d9666e1b.pdf",
+    "static/media/week5.PNG": "/portfolio_page_react/static/media/week5.5a661ebf3424a32a9cb8.PNG",
     "static/media/Linkedin-Logo-PNG2.png": "/portfolio_page_react/static/media/Linkedin-Logo-PNG2.92fb7c52cbb1004e2a2d.png",
     "static/media/github-logo.png": "/portfolio_page_react/static/media/github-logo.1b6bd0e4b6626baba753.png",
     "index.html": "/portfolio_page_react/index.html",
-    "static/media/index.cjs": "/portfolio_page_react/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.750af8ee.css.map": "/portfolio_page_react/static/css/main.750af8ee.css.map",
-    "main.6c139a14.js.map": "/portfolio_page_react/static/js/main.6c139a14.js.map"
+    "main.ddea3a4e.css.map": "/portfolio_page_react/static/css/main.ddea3a4e.css.map",
+    "main.3cf930cb.js.map": "/portfolio_page_react/static/js/main.3cf930cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.750af8ee.css",
-    "static/js/main.6c139a14.js"
+    "static/css/main.ddea3a4e.css",
+    "static/js/main.3cf930cb.js"
   ]
 }
