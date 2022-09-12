@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio_page_react/static/css/main.96880772.css",
-    "main.js": "/portfolio_page_react/static/js/main.bd24b5f3.js",
-    "static/media/homepage_background.mp4": "/portfolio_page_react/static/media/homepage_background.0bd4f3da7342c6c469a3.mp4",
+    "main.css": "/portfolio_page_react/static/css/main.d8f3abc5.css",
+    "main.js": "/portfolio_page_react/static/js/main.dadd1cc5.js",
+    "static/media/background-gif.gif": "/portfolio_page_react/static/media/background-gif.afdea79b33f7c9713d7b.gif",
     "static/media/project 1.PNG": "/portfolio_page_react/static/media/project 1.1e21ff2081bd575e67fc.PNG",
     "static/media/my_pic.png": "/portfolio_page_react/static/media/my_pic.f5f25775aae3a1cd6e86.png",
     "static/media/portfolio.JPG": "/portfolio_page_react/static/media/portfolio.927475e733b48153aa83.JPG",
@@ -15,11 +15,11 @@
     "static/media/Linkedin-Logo-PNG2.png": "/portfolio_page_react/static/media/Linkedin-Logo-PNG2.92fb7c52cbb1004e2a2d.png",
     "static/media/github-logo.png": "/portfolio_page_react/static/media/github-logo.1b6bd0e4b6626baba753.png",
     "index.html": "/portfolio_page_react/index.html",
-    "main.96880772.css.map": "/portfolio_page_react/static/css/main.96880772.css.map",
-    "main.bd24b5f3.js.map": "/portfolio_page_react/static/js/main.bd24b5f3.js.map"
+    "main.d8f3abc5.css.map": "/portfolio_page_react/static/css/main.d8f3abc5.css.map",
+    "main.dadd1cc5.js.map": "/portfolio_page_react/static/js/main.dadd1cc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.96880772.css",
-    "static/js/main.bd24b5f3.js"
+    "static/css/main.d8f3abc5.css",
+    "static/js/main.dadd1cc5.js"
   ]
 }
