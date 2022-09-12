@@ -13,11 +13,12 @@ function Navbar(){
 
     let [open,setOpen]=useState(false);
 
+
     return (
         <div className='shadow-md w-full sticky top-0 left-0'>
           <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
           <div className='text-2xl cursor-pointer flex items-center font-mono font-bold text-white'>
-            <span className='text-2xl mr-1 pt-2'>
+            <span className='text-2xl mr-1 pt-2 hover:text-gray-400'>
             <Link to="/portfolio_page_react">HOME</Link>                
             </span>
           </div>
@@ -25,7 +26,8 @@ function Navbar(){
           <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon style={{color:"white"}} name={open ? 'close':'menu'}></ion-icon>
           </div>
-    
+
+
           <ul className={`bg-black md:flex md:items-center absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in font-mono font-bold ${open ? 'top-20 ':'top-[-490px]'}`}>
             {
               Links.map((link)=>(

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <div className="flex-column justify-flex-start min-100-vh">
         <div>
           <Routes>
