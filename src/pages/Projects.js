@@ -2,7 +2,6 @@ import React from 'react';
 import projectData from "../project_data/projectsData.js";
 import ProjectItem from '../components/Projectitem';
 
-import { useState } from 'react';
 
 function Projects(){    
     

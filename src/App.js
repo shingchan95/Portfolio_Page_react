@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <div className="flex-column justify-flex-start min-100-vh">
+      <div className="flex-column justify-flex-start md:min-100-vh">
         <div>
           <Routes>
             <Route path= "/portfolio_page_react" 

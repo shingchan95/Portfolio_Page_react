@@ -15,7 +15,7 @@ function Navbar(){
 
 
     return (
-        <div className='shadow-md w-full sticky top-0 left-0'>
+        <div className='shadow-md w-full sticky top-0 left-0 z-10'>
           <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
           <div className='text-2xl cursor-pointer flex items-center font-mono font-bold text-white'>
             <span className='text-2xl mr-1 pt-2 hover:text-gray-400'>
@@ -28,16 +28,16 @@ function Navbar(){
           </div>
 
 
-          <ul className={`bg-black md:flex md:items-center absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in font-mono font-bold ${open ? 'top-20 ':'top-[-490px]'}`}>
+          <ul className={`z-50 bg-black md:flex md:items-center absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in font-mono font-bold ${open ? 'top-20 ':'top-[-490px]'}`}>
             {
               Links.map((link)=>(
-                <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
+                <li key={link.name} className='z-50 bg-black md:ml-8 text-xl md:my-0 my-7'>
                   <Link to={link.link} className='text-white hover:text-gray-400 bg-black duration-500'>{link.name} </Link>
                 </li>
               ))
             }
-               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                  <a href = {pdf} className='text-white hover:text-gray-400 bg-black duration-500' target="_blank" rel="noreferrer">VIEW MY CV </a>
+               <li className='z-50 bg-black md:ml-8 text-xl md:my-0 my-7'>
+                  <a href = {pdf} className='text-white hover:text-gray-400 bg-black duration-500' target="_blank" rel="noreferrer">DOWNLOAD MY CV </a>
                 </li>
 
           </ul>

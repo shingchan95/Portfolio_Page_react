@@ -1,7 +1,6 @@
 // import { data } from 'autoprefixer'
 import React from 'react'
-import ReactDom from 'react-dom'
-import githubLogo from "../images/github-logo.png"
+// import githubLogo from "../images/github-logo.png"
 
 
 const MODAL_STYLES = {
@@ -24,7 +23,7 @@ const OVERLAY_STYLES = {
   zIndex: 1000
 }
 
-export default function ProjectModal ({data, children, open, onClose}) {
+export default function ProjectModal ({skills, data, children, open, onClose}) {
   if (!open) return null
   else{
     return(
@@ -36,13 +35,27 @@ export default function ProjectModal ({data, children, open, onClose}) {
                 <p className='text-4xl p-5'>{data.title}</p>
                 <p className='text-lg pt-2 text-left'>{data.description}</p>
                 <div className='flex justify-center pt-8'>
-                  <a href={data.github} target="_blank" rel="noreferrer"><img src={githubLogo} className="rounded-full pl-8 pr-8 h-10 hover:bg-slate-400" alt='github' /></a>
-                  <a href={data.deployment} target="_blank" rel="noreferrer">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full font-mono ml-10" target="_blank" rel="noreferrer">Deployment Link</button>
+                  <a href={data.github} target="_blank" rel="noreferrer">
+                    {/* <img src={githubLogo} className="rounded-full pl-8 pr-8 h-10 hover:bg-slate-400" alt='github' /> */}
+                    <button className="bg-stone-600 hover:bg-stone-300 text-white font-bold py-2 px-4 rounded-full font-mono ml-10" target="_blank" rel="noreferrer">Github</button>
                   </a>
+                  <a href={data.deployment} target="_blank" rel="noreferrer">
+                    <button className="w-[180px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full font-mono ml-10" target="_blank" rel="noreferrer">Deployment Link</button>
+                  </a>
+
                 </div>
-                {/* <p>{data.skills}</p> */}
-            </div>
+                {/* <div>
+                  <p> Skills: 
+                  {skills.map((skill, i) => {
+                    return (
+                      
+                      <p> {skill}, </p> 
+                      
+                      ) 
+                    })}
+                  </p>
+                </div> */}
+          </div>      
         </div>  
       </>
     )

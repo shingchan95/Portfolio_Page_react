@@ -7,8 +7,32 @@ import readMe from "../images/read-me.JPG"
 import portfolio from "../images/portfolio.JPG"
 
 const projectData = [
-    {
+    {   
         "id":1,
+        "title":"Hello World Social Networking",
+        "description":"The application provides a social network enviroment. It is a full stack application that primarily utilises Node.js, GraphQL, MongoDB/Mongoose and React.",
+        "image":Helloworld,
+        "deployment":"https://shielded-mesa-02928.herokuapp.com/",
+        "github":"https://github.com/shingchan95/hello-world-social-networking" ,
+        "skills":["html","css","javascript","react","node.js","MongoDB/Mongoose" ,"GraphQL", "express"],
+        "languages":["html","css","javascript"],
+        "framework":[],
+        "others":[""]
+    },
+    {   
+        "id":2,
+        "title": "Weather Forecast With Map Click",
+        "description":"This application provides a Weather Forecast websiite using Google Map API and OpenWeather API. It allows user to click anywhere in the map and allocate the weather forecast detail using the Fetch API .",
+        "image": project1,
+        "deployment":"https://shingchan95.github.io/know-your-city/",
+        "github":"https://github.com/shingchan95/know-your-city",
+        "skills":["html","css","javascript","RestApis"],
+        "languages":["html","css","javascript"],
+        "framework":[],
+        "others":["third part apis"]
+    },
+    {
+        "id":3,
         "title":"Project Bank-Heist",
         "description":"This application provides a rudimentary online banking template. It is a full stack application that primarily utilises Node.js and it employs the MVC pattern.",
         "deployment": "https://peaceful-lassen-volcanic-80125.herokuapp.com/",
@@ -20,8 +44,19 @@ const projectData = [
         "others":["node.js", "mysql"]
 
     },
+    {   "id":4,
+        "title":"README-generator",
+        "description":"The application can dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+        "image":readMe,
+        "deployment":"https://github.com/shingchan95/README-generator",
+        "github":"https://github.com/shingchan95/README-generator" ,
+        "skills":["javascript", "nodejs", "inquirer"],
+        "languages":[""],
+        "framework":[],
+        "others":[""]
+    },
     {   
-        "id":2,
+        "id":5,
         "title":"The Tech Blog",
         "description":"This application provides a rudimentary Tech Blog template. It is a full stack application that primarily utilises Node.js and it employs the MVC pattern.",
         "image": techBlog,
@@ -33,29 +68,18 @@ const projectData = [
         "others":["node.js","mysql"]
 
     },
-    {   "id":3,
-        "title": "Weather Forecast With Map Click",
-        "description":"This application provides a Weather Forecast websiite using Google Map API and OpenWeather API. It allows user to click anywhere in the map and allocate the weather forecast detail using the Fetch API .",
-        "image": project1,
-        "deployment":"https://shingchan95.github.io/know-your-city/",
-        "github":"https://github.com/shingchan95/know-your-city",
-        "skills":["html","css","javascript","third part apis"],
-        "languages":["html","css","javascript"],
-        "framework":[],
-        "others":["third part apis"]
-    },
-    {   "id":4,
-        "title":"Hello World Social Networking",
-        "description":"The application provides a social network enviroment. It is a full stack application that primarily utilises Node.js, GraphQL, MongoDB/Mongoose and React.",
-        "image":Helloworld,
-        "deployment":"https://shielded-mesa-02928.herokuapp.com/",
-        "github":"https://github.com/shingchan95/hello-world-social-networking" ,
+    {   "id":6,
+    "title":"react-portfolio",
+    "description":"This application provides a portfolio created using react.js and tailwind. It is a component based front-end framework which ultimately boosts the speed of the development process.",
+    "image": portfolio,
+    "deployment":"https://shingchan95.github.io/portfolio_page_react/",
+        "github":"https://github.com/shingchan95/portfolio_page_react" ,
         "skills":["html","css","javascript","react"],
         "languages":["html","css","javascript"],
         "framework":[],
         "others":[""]
     },
-    {   "id":5,
+    {   "id":7,
         "title":"Work Day Scheduler",
         "description":"This application provides a Work Day Scheduler template. It is a fron-end application that primarily utilises Javascript & Localstorage , allows user to save data to their local storage across browser sessions.",
         "image": workdaySchedule,
@@ -66,28 +90,6 @@ const projectData = [
         "framework":[],
         "others":["local storage"]
     },
-    {   "id":6,
-        "title":"README-generator",
-        "description":"The application can dynamically generates a professional README.md file from a user's input using the Inquirer package.",
-        "image":readMe,
-        "deployment":"https://github.com/shingchan95/README-generator",
-        "github":"https://github.com/shingchan95/README-generator" ,
-        "skills":["javascript", "nodejs", "inquirer"],
-        "languages":[""],
-        "framework":[],
-        "others":[""]
-    },
-    {   "id":7,
-        "title":"react-portfolio",
-        "description":"This application provides a portfolio created using react.js and tailwind. It is a component based front-end framework which ultimately boosts the speed of the development process.",
-        "image": portfolio,
-        "deployment":"https://shingchan95.github.io/portfolio_page_react/",
-        "github":"https://github.com/shingchan95/portfolio_page_react" ,
-        "skills":["html","css","javascript","react"],
-        "languages":["html","css","javascript"],
-        "framework":[],
-        "others":[""]
-    }
     
 ]
 
