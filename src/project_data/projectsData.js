@@ -14,7 +14,7 @@ const projectData = [
         "image":Helloworld,
         "deployment":"https://shielded-mesa-02928.herokuapp.com/",
         "github":"https://github.com/shingchan95/hello-world-social-networking" ,
-        "skills":["html","css","javascript","react","node.js","MongoDB/Mongoose" ,"GraphQL", "express"],
+        "skills":["React","GraphQL", "Node.js", "MongoDB/Mongoose", "Express","HTML","CSS","Javascript",],
         "languages":["html","css","javascript"],
         "framework":[],
         "others":[""]
@@ -26,8 +26,8 @@ const projectData = [
         "image": project1,
         "deployment":"https://shingchan95.github.io/know-your-city/",
         "github":"https://github.com/shingchan95/know-your-city",
-        "skills":["html","css","javascript","RestApis"],
-        "languages":["html","css","javascript"],
+        "skills":["RestAPI", "Javascript", "HTML", "CSS"],
+        "languages":["HTML","CSS","Javascript"],
         "framework":[],
         "others":["third part apis"]
     },
@@ -38,7 +38,7 @@ const projectData = [
         "deployment": "https://peaceful-lassen-volcanic-80125.herokuapp.com/",
         "github":"https://github.com/ChrisAylen/project-bank-heist",
         "image": bankHeist,
-        "skills":["html","css","javascript", "sql","express.js","sequelize", "handlebar.js","node.js", "mysql" ],
+        "skills":["Node.js", "mySQL", "Sequelize", "Express", "Handlebar.js", "Bootstrap", "HTML","CSS","Javascript", ],
         "languages":["html","css","javascript", "sql"],
         "framework":["express.js","sequelize", "handlebar.js" ],
         "others":["node.js", "mysql"]
@@ -50,7 +50,7 @@ const projectData = [
         "image":readMe,
         "deployment":"https://github.com/shingchan95/README-generator",
         "github":"https://github.com/shingchan95/README-generator" ,
-        "skills":["javascript", "nodejs", "inquirer"],
+        "skills":["Javascript", "Node.js", "Inquirer"],
         "languages":[""],
         "framework":[],
         "others":[""]
@@ -62,7 +62,7 @@ const projectData = [
         "image": techBlog,
         "deployment":"https://week14-coursework.herokuapp.com/",
         "github":"https://github.com/shingchan95/week14-coursework",
-        "skills":["html","css","javascript", "sql", "express.js","sequelize", "handlebar.js","node.js","mysql"],
+        "skills":["Node.js", "mySQL", "Sequelize", "Express.js", "Handlebar.js","HTML","CSS","Javascript", ],
         "languages":["html","css","javascript", "sql"],
         "framework":["express.js","sequelize", "handlebar.js" ],
         "others":["node.js","mysql"]
@@ -74,7 +74,7 @@ const projectData = [
     "image": portfolio,
     "deployment":"https://shingchan95.github.io/portfolio_page_react/",
         "github":"https://github.com/shingchan95/portfolio_page_react" ,
-        "skills":["html","css","javascript","react"],
+        "skills":["React", "Tailwindcss", "HTML","CSS","Javascript"],
         "languages":["html","css","javascript"],
         "framework":[],
         "others":[""]
@@ -85,7 +85,7 @@ const projectData = [
         "image": workdaySchedule,
         "deployment":"https://shingchan95.github.io/Work-day-schedule/",
         "github":"https://github.com/shingchan95/week5-coursework" ,
-        "skills":["html","css","jquery","local storage"],
+        "skills":["jQuery","Local Storage", "HTML","CSS"],
         "languages":["html","css","javascript"],
         "framework":[],
         "others":["local storage"]

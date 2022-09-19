@@ -44,17 +44,15 @@ export default function ProjectModal ({skills, data, children, open, onClose}) {
                   </a>
 
                 </div>
-                {/* <div>
-                  <p> Skills: 
-                  {skills.map((skill, i) => {
-                    return (
-                      
-                      <p> {skill}, </p> 
-                      
-                      ) 
-                    })}
-                  </p>
-                </div> */}
+                 <div className='flex flex-wrap items-baseline pt-16'>
+                    {skills.map((skill, i) => {
+                      return (                     
+                        <div className="ml-3 w-min bg-white text-gray-800 font-semibold py-1 px-2 border border-gray-600 rounded shadow text-sm">
+                            <p> {skill} </p> 
+                        </div>
+                        ) 
+                      })}
+                </div>
           </div>      
         </div>  
       </>
