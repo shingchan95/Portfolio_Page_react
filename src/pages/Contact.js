@@ -31,7 +31,7 @@ function Contact(){
             </div>
         </div>
 
-        <div className="bg-black w-screen h-screen text-white " id='contact-form'>
+        <div className="bg-black w-screen h-full text-white " id='contact-form'>
             <h1 className='pt-20 text-white text-center text-5xl font-mono font-bold'>HAVE SOME QUESTIONS?</h1>
             <h2 className='pt-5 text-white text-center text-2xl font-mono font-bold'> You can contact me using the contact form below</h2>
                 <div className="pt-20 flex space-x-40 ml-auto" >
