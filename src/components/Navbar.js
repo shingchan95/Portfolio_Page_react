@@ -1,5 +1,5 @@
 import React, { useState }from 'react';
-import pdf from '../images/CV.pdf'
+import pdf from '../images/CV2.pdf'
 import { Link } from "react-router-dom";
 
 
