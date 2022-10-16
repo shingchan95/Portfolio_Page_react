@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_page_react/static/css/main.4741c58b.css",
-    "main.js": "/portfolio_page_react/static/js/main.dbb76dd4.js",
+    "main.js": "/portfolio_page_react/static/js/main.75774fc5.js",
     "static/media/background-gif.gif": "/portfolio_page_react/static/media/background-gif.afdea79b33f7c9713d7b.gif",
     "static/media/project 1.PNG": "/portfolio_page_react/static/media/project 1.1e21ff2081bd575e67fc.PNG",
     "static/media/contact-background.jpg": "/portfolio_page_react/static/media/contact-background.1821b2f0901f10f4a821.jpg",
@@ -12,14 +12,14 @@
     "static/media/project-bank-heist.JPG": "/portfolio_page_react/static/media/project-bank-heist.0316bde5346cf32227fd.JPG",
     "static/media/week14.JPG": "/portfolio_page_react/static/media/week14.bc913a44f767685318ed.JPG",
     "static/media/hello-world.JPG": "/portfolio_page_react/static/media/hello-world.f2f8a04b149966087d4b.JPG",
+    "static/media/CV2.pdf": "/portfolio_page_react/static/media/CV2.b109e2335b854d81eb4b.pdf",
     "static/media/week5.PNG": "/portfolio_page_react/static/media/week5.5a661ebf3424a32a9cb8.PNG",
-    "static/media/CV.pdf": "/portfolio_page_react/static/media/CV.5647f2d1d14722aeaa5c.pdf",
     "index.html": "/portfolio_page_react/index.html",
     "main.4741c58b.css.map": "/portfolio_page_react/static/css/main.4741c58b.css.map",
-    "main.dbb76dd4.js.map": "/portfolio_page_react/static/js/main.dbb76dd4.js.map"
+    "main.75774fc5.js.map": "/portfolio_page_react/static/js/main.75774fc5.js.map"
   },
   "entrypoints": [
     "static/css/main.4741c58b.css",
-    "static/js/main.dbb76dd4.js"
+    "static/js/main.75774fc5.js"
   ]
 }
