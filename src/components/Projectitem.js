@@ -41,7 +41,7 @@ function ProjectItem({projects}) {
                     :
                     (
                     <>
-                    <div key={project.id} className="cursor-pointer relative ransition duration-300 hover:scale-150 border-4 border-slate-600 hover:z-50 rounded-lg m-5 w-96 h-[360px] font-mono z-1 bg-slate-800"  onClick={() => {setIsOpen(true); setClickData(project); setSkills(project.skills)}} >
+                    <div key={project.id} className="cursor-pointer transition duration-300 hover:scale-150 border-4 border-slate-600 hover:z-50 rounded-lg m-5 w-96 h-[360px] font-mono z-1 bg-slate-800"  onClick={() => {setIsOpen(true); setClickData(project); setSkills(project.skills)}} >
                         <div className='flex items-center justify-center pb-10'>
                             <div className='w-full h-40'> 
                                 <img src={`${project.image}`} alt={project.title} key={i}/>

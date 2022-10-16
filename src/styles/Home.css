@@ -1,4 +1,4 @@
-.welcome-text{
+.welcome-button{
     animation: fadeIn 5s;
     opacity: 0;
     animation-delay: 0.5s;
@@ -12,3 +12,69 @@
         opacity: 1;
     }
   }
+
+  .typing1
+{
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide text behind the cursor */
+  margin: 0.5rem auto;
+}
+
+.typing1 {
+  animation: animated-text__1 1s steps(30, end) 0.2s 1 normal both,
+    animated-cursor__1 900ms steps(30, end) 8;
+}
+
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgb(0, 0, 0);
+  }
+  to {
+    border-right-color: rgb(255, 255, 255);
+  }
+}
+
+  
+  
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing2
+{
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide text behind the cursor */
+  margin: 0.5rem auto;
+  animation-delay: 5s;
+  animation: animated-text__2 3s steps(30, end) 0.5s 1 normal both,
+  animated-cursor__2 900ms steps(30, end) 8;
+}
+
+
+
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgb(0, 0, 0);
+  }
+  to {
+    border-right-color: rgb(255, 255, 255);
+  }
+}
+
+  
+  
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

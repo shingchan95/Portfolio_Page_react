@@ -11,7 +11,7 @@ function Contact(){
         <div className="text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 font-mono text-center">
             <div className='md:space-x-20 md:flex '>
                 <div>
-                    <button className='w-[180px] rounded-full peer py-2 md:py-3 md:px-5 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono'>
+                    <button className='w-[180px] rounded-full peer py-2 md:py-3 md:px-5 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono '>
                     Find me on
                     </button>
                     <div className="bg-stone-700 hidden peer-hover:grid hover:grid w-[200px] drop-shadow-lg absolute">
@@ -21,7 +21,7 @@ function Contact(){
                     </div>
                 </div>
                 <div>
-                    <button className='w-[180px] mt-10 py-2 md:mt-0 bg-white text-black rounded-full md:py-3 md:px-5 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono hover:bg-slate-700'>
+                    <button className='w-[180px] mt-10 py-2 md:mt-0 bg-white text-black rounded-full md:py-3 md:px-5 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono hover:bg-blue-900 hover:text-black hover:border-none'>
                     <Link  to="contact-form" spy={true} smooth={true}>
                     Contact form
                     </Link>
@@ -39,7 +39,7 @@ function Contact(){
                         <img className='object-cover' alt="envelope" src={envelope}></img>
                     </div>
 
-                    <div className='w-2/4'>
+                    <div className='w-2/4 h-screen'>
                         <form action="https://formsubmit.co/60b09ae6882f12448593ffa2c1c6bebe" className="shadow-md rounded md:px-8 pt-6 pb-8 mb-4" method="POST">
                             <input type="hidden" name="_subject" value="New submission from my PORTFOLIO!" />
                             <input type="hidden" name="_autoresponse" value="thank you for your message. i will respond as soon as possible" />
@@ -56,7 +56,7 @@ function Contact(){
                                 <label className="block text-white text-sm font-bold mb-2">Message</label>
                                 <textarea  type="text" name="message" className="form-control text-black shadow appearance-none border rounded md:w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " rows="9" placeholder="Write your message here." required></textarea>
                             </div>
-                            <button className="w-[200px] mt-10 bg-white text-black rounded-full py-2 px-3 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono hover:bg-slate-700" type="submit">Send</button>
+                            <button className="w-[200px] mt-10 bg-white text-black rounded-full py-2 px-3 uppercase text-s font-bold cursor-pointer tracking-wider border border-4 font-mono hover:bg-blue-900 hover:text-black hover:border-none" type="submit">Send</button>
                 
                         </form>
                     </div>
