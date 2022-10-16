@@ -6,7 +6,7 @@ import '../styles/projects.css';
 function Projects(){    
     
  return(
-    <div className='bg-black'>
+    <div className='bg-black h-screen'>
         {/* <div>
             <ul className="circles w-screen h-screen">
                         <li></li>

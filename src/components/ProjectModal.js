@@ -30,7 +30,7 @@ export default function ProjectModal ({skills, data, children, open, onClose}) {
       <>
       <div style={OVERLAY_STYLES} onClick={onClose} className="cursor-pointer"/>
         <div style={MODAL_STYLES} className="md:w-3/6 md:h-4/6">
-            <div className='font-mono text-black md:h-4/6'>
+            <div className='font-mono font-bold text-black md:h-4/6'>
               <img src= {data.image}  className="md:m-auto bg-black md:h-4/6" alt="project"/>
                 <p className='text-4xl p-5'>{data.title}</p>
                 <p className='text-lg pt-2 text-left'>{data.description}</p>
